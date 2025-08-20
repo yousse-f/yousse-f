@@ -5,9 +5,10 @@
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=28&pause=1000&color=2E86C1&center=true&vCenter=true&random=false&width=800&height=60&lines=AI+Engineer+%26+MLOps+Specialist;Transforming+Ideas+into+Production;Building+Scalable+AI+Solutions)](https://git.io/typing-svg)
 
 
-**Founder & Co-founder | AI Engineer**
+**AI Engineer | Founder & Co-founder**
 
 *Designing intelligent systems like nature builds hives — one hexagon at a time.*
+
 
 </div>
 
