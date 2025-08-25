@@ -90,27 +90,5 @@ My journey bridges hands-on development with strategic thinking, combining resea
 
 </div>
 
----
-
-## 🌍 Let's Connect
-
-<div align="center">
-
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://youssef-ben.com)  
-[![Studio Innovativo](https://img.shields.io/badge/Agency-2E86C1?style=for-the-badge&logo=rocket&logoColor=white)](https://studioinnovativo.it)  
-[![GeniApp](https://img.shields.io/badge/Startup-00BCD4?style=for-the-badge&logo=lightning&logoColor=white)](http://geniapp.it)  
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/youssef-ben-moussa)
-
-</div>
-
----
-
-<div align="center">
-
-### 💡 "Every project is one more hexagon in my AI ecosystem."
-
-**Currently open to collaboration on cutting-edge AI projects and opportunities in the Netherlands**
-
-<img src="https://komarev.com/ghpvc/?username=yousse-f&label=Profile%20Views&color=2E86C1&style=for-the-badge" alt="Profile Views"/>
 
 </div>
