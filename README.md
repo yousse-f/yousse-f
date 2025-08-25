@@ -19,24 +19,6 @@
 I’m an **AI Engineer** with a modular mindset, aspiring **MLOps Specialist**, passionate about building scalable, production-ready AI systems.  
 My journey bridges hands-on development with strategic thinking, combining research with real-world applications.
 
-**🌟 What I'm Building:**
-- **[Studio Innovativo](https://studioinnovativo.it)** → My AI-first digital agency, where ideas are transformed into intelligent platforms for SMEs and professionals  
-- **[GeniApp](http://geniapp.it)** → Co-founder of this AI startup, developing **Insurly**, an AI-powered insurance platform leveraging **agent orchestration** and advanced **RAG pipelines**  
-- **Moving to the Netherlands (2025)** → Expanding my European network and international opportunities  
-
-**🎯 My Focus Areas:**
-- Generative AI & Large Language Models  
-- MLOps & Cloud Infrastructure  
-- Agent Orchestration & Contextual Memory  
-- Computer Vision & Multimodal AI  
-- Production-ready AI Systems  
-
----
-
-## 🛠️ Technology Stack
-
-### 🧠 Artificial Intelligence & Machine Learning
-<p align="left">
 <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
 <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
 <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
