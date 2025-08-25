@@ -88,7 +88,3 @@ My journey bridges hands-on development with strategic thinking, combining resea
 | **👁️ Vision Strategy Tool** | Visual AI agent for comprehensive social media and content analysis | Computer Vision, NLP, Cloud APIs |
 | **⚡ AI Project Template** | Production-ready starter kit for scalable AI/ML projects | MLOps, Docker, Kubernetes, CI/CD |
 
-</div>
-
-
-</div>
