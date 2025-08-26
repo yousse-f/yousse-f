@@ -66,9 +66,7 @@
 
 <p align="center">
 <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubeflow-0066FF?style=for-the-badge&logo=kubernetes&logoColor=white"/>
-<img src="https://img.shields.io/badge/DVC-945DD6?style=for-the-badge&logo=dvc&logoColor=white"/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white"/>
+<img src="https://img.shields.io/badge/Kubeflow-0066FF?sthubactions&logoColor=white"/>
 </p>
 
 ### **CLOUD & INFRASTRUCTURE**
