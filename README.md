@@ -9,19 +9,7 @@
 
 <table align="center">
 <tr>
-<td align="center"><b>Active Projects</b><br/><sub>4+ Production APIs</sub></td>
-<td align="center"><b>AI Models Deployed</b><br/><sub>15+ Systems</sub></td>
-<td align="center"><b>Cloud Infrastructure</b><br/><sub>Multi-Cloud Expert</sub></td>
-<td align="center"><b>Global Reach</b><br/><s
-## **ABOUT ME**
-
-> **Transforming complex AI research into scalable production systems**
-
-I'm an **AI Engineer** with a **modular mindset** and laser focus on **MLOps, Agent Orchestration & Intelligent Automation**.  
-My passion lies in **bridging the gap** between cutting-edge research and real-world applications that create tangible value.
-
-<div align="center">
-
+<td align="center"><b>Active Projects</b><br/><s
 ### **CURRENT INNOVATION PIPELINE**
 
 <table>
