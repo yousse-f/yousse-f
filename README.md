@@ -51,25 +51,7 @@
 </p>
 
 <p align="center">
-<img src="https://img.shields.io/badge/Transformers-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black"/>
-<img src="https://img.shields.io/badge/LangChain-1C3C3C?style=for-the-badge&logo=chainlink&logoColor=white"/>
-<img src="https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white"/>
-<img src="https://img.shields.io/badge/CrewAI-FF6B6B?style=for-the-badge&logoColor=white"/>
-<img src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white"/>
-</p>
-
-### **MLOPS & DEVOPS**
-
-<p align="center">
-<img src="https://skillicons.dev/icons?i=docker,kubernetes,fastapi,github&theme=dark" height="60"/>
-</p>
-
-<p align="center">
-<img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-<img src="https://img.shields.io/badge/Kubeflow-0066FF?sthubactions&logoColor=white"/>
-</p>
-
-### **CLOUD & INFRASTRUCTURE**
+<img src="https://img.shields.io/badge/Transformers-FFD21E?sty
 
 <p align="center">
 <img src="https://skillicons.dev/icons?i=aws,postgresql,mongodb,redis&theme=dark" height="60"/>
