@@ -7,14 +7,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=Welcome%20to%20the%20Future%20of%20AI&fontSize=28&fontColor=fff&animation=fadeIn&fontAlign=50&fontAlignY=40" width="100%"/>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/AI%20Innovation%20Expert-gold?style=for-the-badge&labelColor=black"/>
-  <img src="https://img.shields.io/badge/Production%20Ready%20Systems-success?style=for-the-badge&labelColor=darkgreen"/>
-  <img src="https://img.shields.io/badge/MLOps%20Specialist-blue?style=for-the-badge&labelColor=darkblue"/>
-</p>
-
----
-
-### **IMPACT METRICS**
+  <img src="https://img.shields.io/badge/AI%20Innovation%20
 
 <table align="center">
 <tr>
