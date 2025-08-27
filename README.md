@@ -2,15 +2,6 @@
 
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.herokua
-<td align="center"><b>Cloud Infrastructure</b><br/><sub>Multi-Cloud Expert</sub></td>
-<td align="center"><b>Global Reach</b><br/><sub>International Collaboration</sub></td>
-</tr>
-</table>
-
-</div>
-
----
 
 ## **ABOUT ME**
 
