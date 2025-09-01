@@ -7,32 +7,6 @@
 <td align="center"><b>AI Models Deployed</b><br/><sub>15+ Systems</sub></td>
 <td align="center">
 ## **ABOUT ME**
-
-> **Transforming complex AI research into scalable production systems**
-
-I'm an **AI Engineer** with a **modular mindset** and laser focus on **MLOps, Agent Orchestration & Intelligent Automation**.  
-My passion lies in **bridging the gap** between cutting-edge research and real-world applications that create tangible value.
-
-<div align="center">
-
-### **CURRENT INNOVATION PIPELINE**
-
-<table>
-<tr>
-<td width="50%">
-
-**ACTIVE PROJECTS**
-- **Instagram Analytics API** → AI-Vision powered insights
-- **Website Analyzer API** → Advanced SEO & tech analysis  
-- **YouTube Analytics Pro** → Automated data pipelines
-- **AI-Agent Orchestration Hub** → Multi-agent ecosystems
-
-</td>
-<td width="50%">
-
-**SPECIALIZATION AREAS**
-- **Generative AI & LLMs**
-- **Agent Orchestration & Memory**
 - **AI Automation & Workflows**
 - **Computer Vision & Multimodal**
 - **MLOps & Cloud Infrastructure**
