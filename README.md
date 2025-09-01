@@ -9,8 +9,7 @@
 **AI Engineer | Founder & Co-founder | Innovation Architect**  
 *"Designing intelligent systems like nature builds hives — one hexagon at a time."*
 
-<p align="center">
-  <img src="https://img.shields.io/badge/AI%20Innovation%20Expert-gold?style=for-the-badge&labelColor=black"/>
+<p align="center
   <img src="https://img.shields.io/badge/Production%20Ready%20Systems-success?style=for-the-badge&labelColor=darkgreen"/>
   <img src="https://img.shields.io/badge/MLOps%20Specialist-blue?style=for-the-badge&labelColor=darkblue"/>
 </p>
