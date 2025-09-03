@@ -37,8 +37,11 @@
 # Script rapido per commit e push
 ./git-quick.sh "Your commit message"
 
-# Auto-commit tramite GitHub Actions (programmato daily)
-# Mantiene attivo il profilo GitHub automaticamente
+# 3x Auto-commit giornalieri tramite GitHub Actions:
+# 🌅 08:00 UTC (10:00 Italia) - Morning boost
+# ☀️ 11:00 UTC (13:00 Italia) - Midday update  
+# 🌆 15:00 UTC (17:00 Italia) - Afternoon session
+# = BOLLINI VERDI SUPER INTENSI! 🟢🟢🟢
 ```
 
 ### **Skills & Technologies**

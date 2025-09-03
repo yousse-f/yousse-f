@@ -2,8 +2,10 @@ name: Auto Commit and Green Dots
 
 on:
   schedule:
-    # Esegui ogni giorno alle 10:00 UTC (puoi modificare)
-    - cron: '0 10 * * *'
+    # 3 commit automatici al giorno per bollini verdi intensi! 🟢
+    - cron: '0 8 * * *'   # 08:00 UTC (10:00 Italia) - Morning commit
+    - cron: '0 11 * * *'  # 11:00 UTC (13:00 Italia) - Lunch commit  
+    - cron: '0 15 * * *'  # 15:00 UTC (17:00 Italia) - Afternoon commit
   workflow_dispatch:  # Permette esecuzione manuale
   push:
     branches: [ main, master ]
@@ -31,32 +33,71 @@ jobs:
         # Crea cartella logs se non esiste
         mkdir -p logs
         
+        # Determina il tipo di commit in base all'ora
+        HOUR=$(date +%H)
+        if [ "$HOUR" -eq "8" ]; then
+          COMMIT_TYPE="🌅 Morning"
+          ACTIVITY_MSG="Morning activity boost"
+        elif [ "$HOUR" -eq "11" ]; then
+          COMMIT_TYPE="☀️ Midday"
+          ACTIVITY_MSG="Midday productivity peak"
+        elif [ "$HOUR" -eq "15" ]; then
+          COMMIT_TYPE="🌆 Afternoon"
+          ACTIVITY_MSG="Afternoon development session"
+        else
+          COMMIT_TYPE="🤖 Auto"
+          ACTIVITY_MSG="Automated activity update"
+        fi
+        
         # Aggiorna il log delle attività
-        echo "$(date): Auto-update - Keeping the project active 🚀" >> logs/activity.log
+        echo "$(date): $ACTIVITY_MSG - Keeping the GitHub streak alive! 🚀" >> logs/activity.log
         
         # Aggiorna il README con timestamp dell'ultimo aggiornamento
         if grep -q "Last updated:" README.md; then
-          sed -i "s/Last updated:.*/Last updated: $(date '+%B %d, %Y at %H:%M UTC')/" README.md
+          sed -i "s/Last updated:.*/Last updated: $(date '+%B %d, %Y at %H:%M UTC') - $COMMIT_TYPE/" README.md
         else
           echo "" >> README.md
           echo "---" >> README.md
-          echo "*Last updated: $(date '+%B %d, %Y at %H:%M UTC')*" >> README.md
+          echo "*Last updated: $(date '+%B %d, %Y at %H:%M UTC') - $COMMIT_TYPE*" >> README.md
         fi
 
     - name: Commit Changes
       run: |
+        # Determina il tipo di commit in base all'ora
+        HOUR=$(date +%H)
+        if [ "$HOUR" -eq "8" ]; then
+          COMMIT_MSG="🌅 Morning boost: $(date '+%Y-%m-%d %H:%M')"
+        elif [ "$HOUR" -eq "11" ]; then
+          COMMIT_MSG="☀️ Midday update: $(date '+%Y-%m-%d %H:%M')"
+        elif [ "$HOUR" -eq "15" ]; then
+          COMMIT_MSG="🌆 Afternoon session: $(date '+%Y-%m-%d %H:%M')"
+        else
+          COMMIT_MSG="🤖 Auto-update: $(date '+%Y-%m-%d %H:%M')"
+        fi
+        
         git add .
         if git diff --staged --quiet; then
           echo "No changes to commit"
         else
-          git commit -m "🤖 Auto-update: $(date '+%Y-%m-%d %H:%M')"
+          git commit -m "$COMMIT_MSG"
           git push origin main || git push origin master
         fi
 
     - name: Create Daily Commit (Fallback)
       run: |
         # Se non ci sono modifiche, crea comunque un piccolo commit
-        echo "Daily activity marker: $(date)" > .github/daily-marker.txt
-        git add .github/daily-marker.txt
-        git commit -m "📅 Daily activity marker - $(date '+%Y-%m-%d')" || true
+        HOUR=$(date +%H)
+        if [ "$HOUR" -eq "8" ]; then
+          MARKER_MSG="🌅 Morning activity marker"
+        elif [ "$HOUR" -eq "11" ]; then
+          MARKER_MSG="☀️ Midday activity marker"
+        elif [ "$HOUR" -eq "15" ]; then
+          MARKER_MSG="🌆 Afternoon activity marker"
+        else
+          MARKER_MSG="📅 Daily activity marker"
+        fi
+        
+        echo "$MARKER_MSG: $(date)" > .github/daily-marker-$(date +%H).txt
+        git add .github/daily-marker-$(date +%H).txt
+        git commit -m "$MARKER_MSG - $(date '+%Y-%m-%d')" || true
         git push origin main || git push origin master || true
