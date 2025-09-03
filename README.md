@@ -58,20 +58,6 @@
 
 ---
 
-## **📈 GITHUB ACTIVITY**
-
-<div align="center">
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=yousse-f&show_icons=true&theme=tokyonight&count_private=true)](https://github.com/anuraghazra/github-readme-stats)
-
-[![GitHub Streak](https://streak-stats.demolab.com/?user=yousse-f&theme=tokyonight)](https://git.io/streak-stats)
-
-[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=yousse-f&layout=compact&theme=tokyonight)](https://github.com/anuraghazra/github-readme-stats)
-
-</div>
-
----
-
 ## **🤝 LET'S CONNECT**
 
 <p align="center">
