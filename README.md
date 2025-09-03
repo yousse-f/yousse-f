@@ -30,20 +30,6 @@
 
 ---
 
-## **🚀 AUTOMATION TOOLKIT**
-
-### **Quick Git Commands**
-```bash
-# Script rapido per commit e push
-./git-quick.sh "Your commit message"
-
-# 3x Auto-commit giornalieri tramite GitHub Actions:
-# 🌅 08:00 UTC (10:00 Italia) - Morning boost
-# ☀️ 11:00 UTC (13:00 Italia) - Midday update  
-# 🌆 15:00 UTC (17:00 Italia) - Afternoon session
-# = BOLLINI VERDI SUPER INTENSI! 🟢🟢🟢
-```
-
 ### **Skills & Technologies**
 
 <p align="center">
