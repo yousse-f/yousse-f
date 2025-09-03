@@ -1,0 +1,62 @@
+name: Auto Commit and Green Dots
+
+on:
+  schedule:
+    # Esegui ogni giorno alle 10:00 UTC (puoi modificare)
+    - cron: '0 10 * * *'
+  workflow_dispatch:  # Permette esecuzione manuale
+  push:
+    branches: [ main, master ]
+    paths-ignore:
+      - '.github/**'
+
+jobs:
+  auto-commit:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        fetch-depth: 0
+
+    - name: Configure Git
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+
+    - name: Create or Update Activity Log
+      run: |
+        # Crea cartella logs se non esiste
+        mkdir -p logs
+        
+        # Aggiorna il log delle attività
+        echo "$(date): Auto-update - Keeping the project active 🚀" >> logs/activity.log
+        
+        # Aggiorna il README con timestamp dell'ultimo aggiornamento
+        if grep -q "Last updated:" README.md; then
+          sed -i "s/Last updated:.*/Last updated: $(date '+%B %d, %Y at %H:%M UTC')/" README.md
+        else
+          echo "" >> README.md
+          echo "---" >> README.md
+          echo "*Last updated: $(date '+%B %d, %Y at %H:%M UTC')*" >> README.md
+        fi
+
+    - name: Commit Changes
+      run: |
+        git add .
+        if git diff --staged --quiet; then
+          echo "No changes to commit"
+        else
+          git commit -m "🤖 Auto-update: $(date '+%Y-%m-%d %H:%M')"
+          git push origin main || git push origin master
+        fi
+
+    - name: Create Daily Commit (Fallback)
+      run: |
+        # Se non ci sono modifiche, crea comunque un piccolo commit
+        echo "Daily activity marker: $(date)" > .github/daily-marker.txt
+        git add .github/daily-marker.txt
+        git commit -m "📅 Daily activity marker - $(date '+%Y-%m-%d')" || true
+        git push origin main || git push origin master || true

@@ -1,0 +1,37 @@
+# Git Aliases per workflow veloce
+[alias]
+    # Commit rapidi
+    quick = "!f() { git add . && git commit -m \"${1:-Quick update}\"; }; f"
+    push-quick = "!f() { git add . && git commit -m \"${1:-Quick update}\" && git push; }; f"
+    
+    # Status e log migliorati
+    st = status --short --branch
+    lg = log --oneline --graph --decorate --all -10
+    
+    # Undo utilities
+    undo = reset --soft HEAD~1
+    unstage = reset HEAD
+    
+    # Branch utilities
+    current = symbolic-ref --short HEAD
+    branches = branch -a
+    
+    # Remote utilities  
+    remotes = remote -v
+
+# Configurazioni per i bollini verdi
+[user]
+    # Assicurati che queste info corrispondano al tuo GitHub
+    name = Youssef Ben Moussa
+    email = your-github-email@example.com
+
+[core]
+    autocrlf = input
+    safecrlf = true
+
+[push]
+    default = current
+    autoSetupRemote = true
+
+[pull]
+    rebase = false
