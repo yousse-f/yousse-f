@@ -38,7 +38,18 @@
   <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white"/>
   <img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white"/>
   <img src="https://img.shields.io/badge/MLflow-0194E2?style=for-the-badge&logo=mlflow&logoColor=white"/>
-  
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white"/>
+</p>
+
+### **Current Focus Areas**
+- 🤖 **Multi-Agent Systems** - Orchestrating AI agents for complex workflows
+- 🔄 **MLOps Pipelines** - End-to-end ML model deployment and monitoring
+- ☁️ **Cloud Architecture** - Scalable AI infrastructure design
+- 🧠 **LLM Integration** - Production-ready language model implementations
+
+### **Featured Projects**
+
+| Project | Description | Tech Stack | Status |
 |---------|-------------|------------|--------|
 | 🤖 **AI Agent Orchestrator** | Multi-agent system for automated workflows | Python, FastAPI, Redis | 🟢 Production |
 | 📊 **ML Pipeline Automation** | End-to-end MLOps platform | Docker, K8s, MLflow | 🟡 Development |
